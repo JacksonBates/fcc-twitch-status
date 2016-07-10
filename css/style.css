@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+
+body {
+  background-color: #6441a5;
+}
+
+.container {
+  max-width: 700px;
+}
+
+a:hover {
+  color: green;
+}
+
+
+h1 {
+  font-family: Monofett, "Arial Black", Gadget, sans-serif;
+  color: white;
+  background-color: rgba(0,0,0,0.65);
+  border-radius: 20px ;
+  font-size: 3em;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.row:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  line-height: 50px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  font-family:"Arial Black", Gadget, sans-serif;
+  
+}
+
+.online > .row {
+  background-color: rgb(200,255,150);
+}
+
+.offline > .row {
+  background-color: rgb(255,155,60);
+}
+
+.noaccount > .row {
+  background-color: rgb(255,40,40);
+}
